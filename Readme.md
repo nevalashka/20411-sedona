@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Boris Rukavishnikov](https://up.htmlacademy.ru/htmlcss/21/user/20411).
-* Наставник: `Неизвестно`.
+* Наставница: Юлия Цапова (https://htmlacademy.ru/profile/id479537).
 
 ---
 
