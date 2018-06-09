@@ -94,7 +94,24 @@
               <div class="map">
                   <img src="img/map.jpg" width="1200" height="593" alt="Карта">
                   <div class="form-block">
-                      <form> 
+                      <form class="searh-date" action="https://echo.htmlacademy.ru" method="post">
+                          <p class="date-arrival">
+                              <label for="date-arrival">Дата заезда</label> 
+                              <input type="date-arrival" name="date-arrival" value="24 июня 2018" reguired>
+                          </p>
+                          <p class="date-departure">
+                              <label for="date-departure">Дата выезда</label> 
+                              <input type="date-departure" name="date-departure" value="4 июля 2018" reguired>
+                          </p>
+                          <p class="adults">
+                              <label class="kids" for="kids">Взрослые:</label>
+                              <input id="adults" type="number" name="adults" min="1" tabindex="3" value="1" reguired>
+                          </p>
+                          <p>
+                              <label class="kids" for="kids">Взрослые:</label>
+                              <input id="kids" type="number" name="kids" min="0" tabindex="3" value="0" reguired>
+                          </p>
+                          <button class="search-form-btn" type="submit">Найти</button>
                       </form>
                   </div>
               </div>
