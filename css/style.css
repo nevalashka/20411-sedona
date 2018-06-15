@@ -1,29 +1,28 @@
-@font-face {
-    font-family: 'Pt Sans';
-    src: url('')
-}
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Pt Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 700;
+    font-weight: normal;
     color: #000000;
     text-transform: uppercase;
 }
 a {
     text-decoration: none;
 }
-.site-navigation {
+li {
     list-style: none;
 }
+.site-navigation {
+    list-style: none;
+    text-align: center;
+}
 .site-navigation a {
-  color: #000000;
+    color: #000000;
 }
 .site-navigation a:hover {
-  color: #81b3d2;
+    color: #81b3d2;
 }
 .site-navigation a:active {
     color: rgba(0, 0, 0, 0.3);
@@ -31,4 +30,108 @@ a {
 .site-navigation a:current {
     color: #766357;
 }
+.caption-text-block {
+    text-align: center;
+}
+.caption-text-block h2 {
+    font-size: 21px;
+    line-height: 26px;
+}
+.caption-text-block p {
+    color: #333333;
+}
+.left-block-of-real-town {
+    background-color: #81b3d2;
+    color: #ffffff;
+    text-align: center;
+}
+.left-block-of-real-town h2 {
+    font-size: 21px;
+    line-height: 26px;
+}
+.features-block {
+    text-align: center;
+}
+.features-block h2 {
+    font-size: 21px;
+    line-height: 26px;
+}
+.features-block li {
+    list-style: none;
+}
+.features-first li p {
+    color: #333333;
+}
+.right-block-of-bridge {
+    background-color: #81b3d2;
+    color: #ffffff;
+    text-align: center;
+}
+.right-block-of-bridge h2 {
+    font-size: 21px;
+    line-height: 26px;
+}
+.features-second-block {
+    background-color: #eeeeee;
+    text-align: center;
+}
+.features-second-block li {
+    list-style: none;
+}
+.features-second-list h2 {
+    font-size: 21px;
+    line-height: 26px;
+}
+.features-second-list p {
+    color: #333333;
+}
+.interested-block {
+    text-align: center;
+}
+.interested-block h2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+.interested-block p {
+    color: #333333;
+}
+.search-hotel {
+    font-size: 21px;
+    background-color: #766357;
+    color: #ffffff;
+}
+.search-hotel:hover {
+    background-color: #604e43;
+}
+.search-hotel:active { 
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #503e33;
+}
+.blue-element {
+    background-color: #81b3d2;
+    font-size: 21px;
+    line-height: 26px;
+    color: #ffffff;
+    
+}
+.blue-element:active {
+    background-color: #5496bd;
+}
+.blue-element:hover {
+    background-color: #669ec0;
+}
+.footer-container p {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+    color: #000000;
+}
+.footer-copyright a {
+    color: #000000;
+}
+
+
+
+
 
