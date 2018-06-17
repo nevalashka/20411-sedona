@@ -217,7 +217,7 @@ main {
 }
 .wrapper-hotels-form {
     background-color: #4d7faa;
-    background-image: url("img/blur-background.jpg");
+    background-image: url("../img/blur-background.jpg");
 }
 .search-form {
     font-size: 16px;
