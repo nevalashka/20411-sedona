@@ -8,6 +8,7 @@ body {
     font-style: normal;
     color: #000000;
     text-transform: uppercase;
+    background-color: #ffffff;
 }
 a {
     text-decoration: none;
@@ -15,13 +16,31 @@ a {
 img { 
     max-width: 100%;
 }
-.site-navigation {
-    list-style: none;
-    text-align: center;
+.sedona-nav-logo {
+    display: block; 
+    margin: 0 auto;
 }
-.site-navigation a {
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+.site-navigation {
+    width: 1200px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.site-navigation li {
     color: #000000;
     font-weight: bold;
+    
+}
+.site-navigation a {
+    display: block;
+    width: 239px;
+    height: 56px;
+    background-color: green;
 }
 .site-navigation a:hover {
     color: #81b3d2;
@@ -32,21 +51,38 @@ img {
 .site-navigation a:current {
     color: #766357;
 }
+.caption-block {
+    margin-bottom: 60px;
+} 
+.caption-block img {
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
 .caption-text-block {
     text-align: center;
 }
-.caption-text-block h2 {
+.caption-text-block h1 {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 .caption-text-block p {
     color: #333333;
+}
+.real-town-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
 }
 .left-block-of-real-town {
     background-color: #81b3d2;
     color: #ffffff;
     text-align: center;
+    width: 400px;
+    height: 210px;
+    padding-top: 46px;
 }
 .left-block-of-real-town h2 {
     font-size: 21px;
@@ -54,34 +90,63 @@ img {
 }
 .features-block {
     text-align: center;
+    margin-bottom: 85px;
 }
 .features-block h2 {
     font-size: 21px;
     line-height: 26px;
     
 }
+.features-first {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
 .features-block li {
     list-style: none;
+    width: 252px;
+    margin: 0 auto;
 }
 .features-first li p {
     color: #333333;
+}
+.bridge-block {
+    display: flex;
+    justify-content: center;
+    
 }
 .right-block-of-bridge {
     background-color: #81b3d2;
     color: #ffffff;
     text-align: center;
+    width: 400px;
+    height: 210px;
+    padding-top: 46px;
 }
 .right-block-of-bridge h2 {
     font-size: 21px;
     line-height: 26px;
 }
 .features-second-block {
-    background-color: #eeeeee;
+    margin-bottom: 60px;
+}
+.features-second-list li {
+    list-style: none;
+    width: 252px;
+    margin: 0 auto;
     text-align: center;
 }
-.features-second-block li {
-    list-style: none;
+.features-second-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    min-height: 206px;
+    padding-top: 50px;
 }
+
 .features-second-list h2 {
     font-size: 21px;
     line-height: 26px;
@@ -92,9 +157,13 @@ img {
 .interested-block {
     text-align: center;
 }
+.center-block {
+    margin-bottom: 55px;
+}
 .interested-block h2 {
     font-size: 30px;
     line-height: 36px;
+    margin-bottom: 40px;
 }
 .interested-block p {
     color: #333333;
