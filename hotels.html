@@ -20,37 +20,47 @@
           </nav>
       </header>
       <main>
-          <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-            <legend>Инфрастуктура:</legend>
-            <input type="checkbox" name="water-pool" id="water-pool" checked>
-            <label for="water-pool">Бассейн</label>
+          <div class="wrapper-hotels-form">
+              <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+                  <fieldset>
+                      <legend>Инфрастуктура:</legend>
+                      <div class="field-wrapper">
+                          <input type="checkbox" name="water-pool" id="water-pool" checked>
+                          <label for="water-pool">Бассейн</label>
+                      </div>
+                      <div class="field-wrapper">
+                          <input type="checkbox" name="parking" id="parking">
+                          <label for="parking">Парковка</label>
+                      </div>
+                      <div class="field-wrapper">
+                          <input type="checkbox" name="wi-fi" id="wi-fi">
+                          <label for="wi-fi">Wi-fi</label>
+                      </div>
+                  </fieldset>
+                  <fieldset>
+                      <legend>Тип жилья:</legend>
+                      <input type="checkbox" name="hotel" id="hotel" checked>
+                      <label for="hotel">Гостиница</label>
               
-            <input type="checkbox" name="parking" id="parking">
-            <label for="parking">Парковка</label>
+                      <input type="checkbox" name="motel" id="motel" checked>
+                      <label for="motel">Мотель</label>
               
-            <input type="checkbox" name="wi-fi" id="wi-fi">
-            <label for="wi-fi">Wi-fi</label>  
-            <legend>Тип жилья:</legend>
-            <input type="checkbox" name="hotel" id="hotel" checked>
-            <label for="hotel">Гостиница</label>
+                      <input type="checkbox" name="apartments" id="apartments" checked>
+                      <label for="apartments">Апартаменты</label> 
               
-            <input type="checkbox" name="motel" id="motel" checked>
-            <label for="motel">Мотель</label>
-              
-            <input type="checkbox" name="apartments" id="apartments" checked>
-            <label for="apartments">Апартаменты</label> 
-              
-            <label for="dayscount">Стоимость в сутки (Р):</label>
-            От 0 <input type="range" id="dayscount" name="dayscount" min="0" max="3000" step="500">до 3000
-            <button class="btn show" type="submit">Показать</button>
-        </form>
+                      <label for="dayscount">Стоимость в сутки (Р):</label>
+                      <p>От 0 <input type="range" id="dayscount" name="dayscount" min="0" max="3000" step="500">до 3000</p>
+                  </fieldset>
+                  <button class="btn show" type="submit">Показать</button>
+              </form>
+          </div>
           <section class="sort">
               <p class="sort-find">Найдено: 3</p>
               <p class="sort-menu">Сортировка</p>
               <ul class="sort-options">
-                  <li>по цене</li>
-                  <li>по типу</li>
-                  <li>по рейтингу</li>
+                  <li><a href="#">по цене</a></li>
+                  <li><a href="#">по типу</a></li>
+                  <li><a href="#">по рейтингу</a></li>
               </ul>
               <span class="arrows">
                   <a class="arrow arrow-up" href="#"></a>
@@ -58,46 +68,46 @@
               </span>
           </section>
           <section class="results">
-              <div class="result-block">
+              <div class="result-wrapper">
                   <div class="right-side-of-result-block">
                       <img src="img/pic-1-hotel.jpg" width="135" height="90" alt="Amara Resort & Spa">
                       <a href="#" class="hotel-link">Amara Resort & Spa</a>
                       <p>Гостиница</p>
                       <p>от 4000 Р.</p>
                       <a href="#" class="more-information blue-element">Подробнее</a>
-                      <a href="#" class="book">Забронировать</a>
+                      <a href="#" class="book brown-element">Забронировать</a>
                   </div>
                   <div class="left-side-of-result-block">
                       <span class="stars"></span>
-                      <span class="rating">Рейтинг:8,5</span>
+                      <span class="rating">Рейтинг: 8,5</span>
                   </div>
               </div>
-              <div class="result-block">
+              <div class="result-wrapper">
                   <div class="right-side-of-result-block">
                       <img src="img/pic-2-hotel.jpg" width="135" height="90" alt="Desert Quail Inn">
                       <a href="#" class="hotel-link">Desert Quail Inn</a>
                       <p>Мотель</p>
                       <p>от 3000 Р.</p>
                       <a href="#" class="more-information blue-element">Подробнее</a>
-                      <a href="#" class="book">Забронировать</a>
+                      <a href="#" class="book brown-element">Забронировать</a>
                   </div>
                   <div class="left-side-of-result-block">
                       <span class="stars"></span>
-                      <span class="rating">Рейтинг:8,9</span>
+                      <span class="rating">Рейтинг: 8,9</span>
                   </div>
               </div>
-              <div class="result-block">
+              <div class="result-wrapper">
                   <div class="right-side-of-result-block">
                       <img src="img/pic-3-hotel.jpg" width="135" height="90" alt="Villas at poco diablo">
                       <a href="#" class="hotel-link">Villas at poco diablo</a>
                       <p>Апартаменты</p>
                       <p>от 2000 Р.</p>
                       <a href="#" class="more-information blue-element">Подробнее</a>
-                      <a href="#" class="book">Забронировать</a>
+                      <a href="#" class="book brown-element">Забронировать</a>
                   </div>
                   <div class="left-side-of-result-block">
                       <span class="stars"></span>
-                      <span class="rating">Рейтинг:9,2</span>
+                      <span class="rating">Рейтинг: 9,2</span>
                   </div>
               </div>
           </section>
