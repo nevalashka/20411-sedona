@@ -4,15 +4,16 @@ body {
     font-family: "Pt Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
     color: #000000;
     text-transform: uppercase;
 }
 a {
     text-decoration: none;
 }
-li {
-    list-style: none;
+img { 
+    max-width: 100%;
 }
 .site-navigation {
     list-style: none;
@@ -20,6 +21,7 @@ li {
 }
 .site-navigation a {
     color: #000000;
+    font-weight: bold;
 }
 .site-navigation a:hover {
     color: #81b3d2;
@@ -36,6 +38,7 @@ li {
 .caption-text-block h2 {
     font-size: 21px;
     line-height: 26px;
+    font-weight: 700;
 }
 .caption-text-block p {
     color: #333333;
@@ -55,6 +58,7 @@ li {
 .features-block h2 {
     font-size: 21px;
     line-height: 26px;
+    
 }
 .features-block li {
     list-style: none;
@@ -107,6 +111,12 @@ li {
     color: rgba(255, 255, 255, 0.3);
     background-color: #503e33;
 }
+.searh-date {
+    font-weight: 700;
+}
+.field input {
+    font-weight: 700;
+}
 .blue-element {
     background-color: #81b3d2;
     font-size: 21px;
@@ -126,16 +136,15 @@ li {
     line-height: 26px;
     color: #000000;
 }
-.footer-copyright a {
+.footer-copyright p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
     color: #000000;
 }
-
-
-
-
-
-
-
-
+.site-navigation .current {
+    color: #766357;
+}
 
 
