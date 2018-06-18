@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    width: 1200px;
+    margin: 0 auto;
     padding: 0;
     font-family: "Pt Sans", "Arial", sans-serif;
     font-size: 14px;
@@ -10,6 +11,13 @@ body {
     text-transform: uppercase;
     background-color: #ffffff;
 }
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+}
 a {
     text-decoration: none;
 }
@@ -19,14 +27,10 @@ img {
 .sedona-nav-logo {
     display: block; 
     margin: 0 auto;
-}
-main {
-    width: 1200px;
-    margin: 0 auto;
+    position: absolute;
+    left: 770px;
 }
 .site-navigation {
-    width: 1200px;
-    list-style: none;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -34,6 +38,7 @@ main {
 .site-navigation li {
     color: #000000;
     font-weight: bold;
+    list-style: none;
     
 }
 .site-navigation a {
@@ -41,6 +46,7 @@ main {
     width: 239px;
     height: 56px;
     background-color: green;
+    text-decoration: none;
 }
 .site-navigation a:hover {
     color: #81b3d2;
@@ -53,6 +59,7 @@ main {
 }
 .caption-block {
     margin-bottom: 60px;
+    margin-top: -14px;
 } 
 .caption-block img {
     display: block; 
@@ -81,7 +88,7 @@ main {
     color: #ffffff;
     text-align: center;
     width: 400px;
-    height: 210px;
+    height: 256px;
     padding-top: 46px;
 }
 .left-block-of-real-town h2 {
@@ -95,7 +102,6 @@ main {
 .features-block h2 {
     font-size: 21px;
     line-height: 26px;
-    
 }
 .features-first {
     display: flex;
@@ -114,14 +120,14 @@ main {
 .bridge-block {
     display: flex;
     justify-content: center;
-    
+    margin-bottom: -8px;
 }
 .right-block-of-bridge {
     background-color: #81b3d2;
     color: #ffffff;
     text-align: center;
     width: 400px;
-    height: 210px;
+    height: 256px;
     padding-top: 46px;
 }
 .right-block-of-bridge h2 {
@@ -143,7 +149,7 @@ main {
     margin: 0;
     padding: 0;
     background-color: #eeeeee;
-    min-height: 206px;
+    min-height: 256px;
     padding-top: 50px;
 }
 
@@ -201,7 +207,6 @@ main {
 .footer-container p {
     font-size: 21px;
     font-weight: bold;
-    text-align: center;
     line-height: 26px;
     color: #000000;
 }
