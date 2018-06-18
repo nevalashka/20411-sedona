@@ -8,6 +8,7 @@
       <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <div class="wrapper">
       <header>
           <nav class="main-navigation">
               <a href="index.html" class="sedona-nav-logo"><img src="img/logo.png" width="138" height="70" alt="Логотип Седоны"></a>
@@ -97,13 +98,13 @@
                           </div>
                           <div class="field date-departure">
                               <label for="date-departure">Дата выезда</label> 
-                              <input type="date" id="date-departure" name="date-departure" tabindex="2" value="4 июля 2018" required>
+                              <input id="date-departure" type="text" name="date-departure" tabindex="2" value="4 июля 2018" required>
                           </div>
                           <div class="field adults">
                               <button type="button" class="btn plus"></button>
                               <button type="button" class="btn minus"></button>
                               <label for="adults">Взрослые:</label>
-                              <input id="adults" type="number" name="adults" min="1" tabindex="3" value="1" required>
+                              <input id="adults" type="text" name="adults" min="1" tabindex="3" value="1" required>
                           </div>
                           <div class="field kids">
                               <button type="button" class="btn plus"></button>
@@ -138,5 +139,6 @@
               </div>
           </div>
       </footer>
+    </div>
   </body>
 </html>

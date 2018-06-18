@@ -1,7 +1,4 @@
 body {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0;
     font-family: "Pt Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -9,7 +6,7 @@ body {
     font-style: normal;
     color: #000000;
     text-transform: uppercase;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 }
 *,
 *::after,
@@ -17,6 +14,11 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
 }
 a {
     text-decoration: none;
@@ -44,17 +46,17 @@ main {
     flex-direction: row;
 }
 .site-navigation li {
-    color: #000000;
-    font-weight: bold;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .site-navigation a {
+    line-height: 24px;
+    font-weight: bold;
+    color: #000000;
     display: block;
     width: 239px;
     height: 56px;
-    background-color: green;
     text-decoration: none;
 }
 .site-navigation a:hover {
@@ -85,6 +87,7 @@ main {
 }
 .caption-text-block p {
     color: #333333;
+    line-height: 26px;
 }
 .real-town-block {
     display: flex;
@@ -98,10 +101,10 @@ main {
     width: 400px;
     height: 256px;
     padding-top: 46px;
+    line-height: 21px;
 }
 .left-block-of-real-town h2 {
     font-size: 21px;
-    line-height: 26px;
 }
 .features-block {
     text-align: center;
@@ -121,6 +124,22 @@ main {
     list-style: none;
     width: 252px;
     margin: 0 auto;
+    line-height: 21px;
+}
+.features-block li:nth-child(1) {
+    background-image: url(../img/icon-1.svg);
+    background-repeat: no-repeat;
+}
+.features-block li:nth-child(2) {
+    background-image: url(../img/icon-2.svg);
+    background-repeat: no-repeat;
+}
+.features-block li:nth-child(3) {
+    background-image: url(../img/icon-3.svg);
+    background-repeat: no-repeat;
+}
+.features-first h2 {
+    font-size: 21px;
 }
 .features-first li p {
     color: #333333;
@@ -131,6 +150,7 @@ main {
     margin-bottom: -8px;
 }
 .right-block-of-bridge {
+    line-height: 21px;
     background-color: #81b3d2;
     color: #ffffff;
     text-align: center;
@@ -140,7 +160,6 @@ main {
 }
 .right-block-of-bridge h2 {
     font-size: 21px;
-    line-height: 26px;
 }
 .features-second-block {
     margin-bottom: 60px;
@@ -182,6 +201,13 @@ main {
 .interested-block p {
     color: #333333;
 }
+.search-form-btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 458px;
+    height: 58px;
+    border: none;
+}
 .brown-element {
     font-size: 21px;
     background-color: #766357;
@@ -208,9 +234,26 @@ main {
 }
 .blue-element:active {
     background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
 }
 .blue-element:hover {
     background-color: #669ec0;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+}
+.footer-social {
+    
+}
+.social-btn {
+    width: 46px;
+    height: 48px;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .footer-container p {
     font-size: 21px;
