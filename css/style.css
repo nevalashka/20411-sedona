@@ -1,7 +1,7 @@
 body {
     font-family: "Pt Sans", "Arial", sans-serif;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 21px;
     font-weight: 400;
     font-style: normal;
     color: #000000;
@@ -31,18 +31,18 @@ main {
 }
 .main-navigation {
     margin-top: -14px;
+    position: relative;
 }
 .sedona-nav-logo {
     display: block; 
     margin: 0 auto;
     position: absolute;
-    left: 770px;
-    width: 244px;
+    left: 535px;
+    width: 138px;
     height: 70px;
 }
 .site-navigation {
     display: flex;
-    justify-content: center;
     flex-direction: row;
 }
 .site-navigation li {
@@ -50,14 +50,23 @@ main {
     margin: 0;
     padding: 0;
 }
+.site-navigation li:nth-child(1) {
+    margin-left: -40px;
+}
+.site-navigation li:nth-child(2) {
+    margin-right: 236px;
+}
+
 .site-navigation a {
-    line-height: 24px;
+    line-height: 26px;
     font-weight: bold;
     color: #000000;
-    display: block;
+    display: inline-block;
     width: 239px;
     height: 56px;
     text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
 }
 .site-navigation a:hover {
     color: #81b3d2;
@@ -87,7 +96,6 @@ main {
 }
 .caption-text-block p {
     color: #333333;
-    line-height: 26px;
 }
 .real-town-block {
     display: flex;
@@ -101,7 +109,6 @@ main {
     width: 400px;
     height: 256px;
     padding-top: 46px;
-    line-height: 21px;
 }
 .left-block-of-real-town h2 {
     font-size: 21px;
@@ -112,7 +119,6 @@ main {
 }
 .features-block h2 {
     font-size: 21px;
-    line-height: 26px;
 }
 .features-first {
     display: flex;
@@ -124,7 +130,6 @@ main {
     list-style: none;
     width: 252px;
     margin: 0 auto;
-    line-height: 21px;
 }
 .features-block li:nth-child(1) {
     background-image: url(../img/icon-1.svg);
@@ -182,7 +187,6 @@ main {
 
 .features-second-list h2 {
     font-size: 21px;
-    line-height: 26px;
 }
 .features-second-list p {
     color: #333333;
@@ -200,6 +204,7 @@ main {
 }
 .interested-block p {
     color: #333333;
+    line-height: 24px;
 }
 .search-form-btn {
     display: inline-block;
@@ -208,8 +213,11 @@ main {
     height: 58px;
     border: none;
 }
-.brown-element {
+button, .search-hotel, .brown-element {
     font-size: 21px;
+    line-height: 26px;
+}
+.brown-element {
     background-color: #766357;
     color: #ffffff;
 }
@@ -222,9 +230,11 @@ main {
 }
 .searh-date {
     font-weight: 700;
+    line-height: 26px;
 }
-.field input {
+.searh-date input {
     font-weight: 700;
+    line-height: 26px;
 }
 .blue-element {
     background-color: #81b3d2;
@@ -262,11 +272,7 @@ main {
     color: #000000;
 }
 .footer-copyright p {
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    font-style: normal;
-    color: #000000;
+    line-height: 26px;
 }
 .site-navigation .current {
     color: #766357;
