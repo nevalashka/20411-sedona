@@ -253,9 +253,6 @@ button, .search-hotel, .brown-element {
     display: flex;
     flex-direction: row;
 }
-.footer-social {
-    
-}
 .social-btn {
     width: 46px;
     height: 48px;
