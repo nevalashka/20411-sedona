@@ -93,18 +93,18 @@
                   <div class="form-block">
                       <form class="searh-date" action="https://echo.htmlacademy.ru" method="post">
                           <div class="field date-arrival">
-                              <label for="date-arrival">Дата заезда</label> 
+                              <label for="date-arrival">Дата заезда:</label> 
                               <input type="text" id="date-arrival" name="date-arrival" tabindex="1" value="24 июня 2018" required>
                           </div>
                           <div class="field date-departure">
-                              <label for="date-departure">Дата выезда</label> 
+                              <label for="date-departure">Дата выезда:</label> 
                               <input id="date-departure" type="text" name="date-departure" tabindex="2" value="4 июля 2018" required>
                           </div>
                           <div class="field adults">
                               <button type="button" class="btn plus"></button>
                               <button type="button" class="btn minus"></button>
                               <label for="adults">Взрослые:</label>
-                              <input id="adults" type="text" name="adults" min="1" tabindex="3" value="1" required>
+                              <input id="adults" type="number" name="adults" min="1" tabindex="3" value="1" required>
                           </div>
                           <div class="field kids">
                               <button type="button" class="btn plus"></button>
@@ -112,7 +112,7 @@
                               <label for="kids">Дети:</label>
                               <input id="kids" type="number" name="kids" min="0" tabindex="4" value="0" required>
                           </div>
-                          <button class="blue-element search-form-btn" type="submit">Найти</button>
+                          <button class="btn blue-element search-form-btn" type="submit">Найти</button>
                       </form>
                       <img src="img/map.jpg" width="1200" height="593" alt="Карта">
                   </div>
