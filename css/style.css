@@ -96,6 +96,7 @@ main {
 }
 .caption-text-block p {
     color: #333333;
+    line-height: 26px;
 }
 .real-town-block {
     display: flex;
@@ -134,17 +135,21 @@ main {
 .features-block li:nth-child(1) {
     background-image: url(../img/icon-1.svg);
     background-repeat: no-repeat;
+    background-position: top;
 }
 .features-block li:nth-child(2) {
-    background-image: url(../img/icon-2.svg);
-    background-repeat: no-repeat;
-}
-.features-block li:nth-child(3) {
     background-image: url(../img/icon-3.svg);
     background-repeat: no-repeat;
+    background-position: top;
+}
+.features-block li:nth-child(3) {
+    background-image: url(../img/icon-2.svg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 .features-first h2 {
     font-size: 21px;
+    margin-top: 100px;
 }
 .features-first li p {
     color: #333333;
@@ -215,6 +220,7 @@ main {
     width: 458px;
     height: 58px;
     border: none;
+    font-weight: bold;
 }
 .search-hotel, .brown-element {
     font-size: 21px;
@@ -223,6 +229,7 @@ main {
     height: 86px;
     margin-bottom: 55px;
     border: none;
+    font-weight: bold;
 }
 .brown-element {
     background-color: #766357;
@@ -266,9 +273,6 @@ main {
     background-repeat: no-repeat;
     background-position: 320px;
 }
-.adults {
-    
-}
 .adults input {
     width: 114px;
 }
@@ -288,27 +292,53 @@ main {
 .blue-element:hover {
     background-color: #669ec0;
 }
+.main-footer {
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+}
 .footer-container {
     display: flex;
     flex-direction: row;
+    width: 970px;
+    margin: 0 auto;
+}
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
 }
 .social-btn {
     width: 46px;
     height: 48px;
     margin-right: 6px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 .footer-container p {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
     color: #000000;
+    margin-right: 10px;
+}
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer-copyright p {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
     line-height: 26px;
+}
+.footer-copyright a {
+    
 }
 .site-navigation .current {
     color: #766357;
@@ -327,13 +357,15 @@ main {
 }
 .search-form legend {
     font-size: 16px;
-}
-.price-day {
-    font-size: 16px;
+    font-weight: bold;
 }
 .search-form label {
     font-size: 14px;
     font-weight: normal;
+}
+.price-day {
+    font-size: 16px;
+    font-weight: 21px;
 }
 .search-form p {
     font-size: 14px;
@@ -398,6 +430,7 @@ main {
 .more-information, .book {
     font-size: 14px;
     line-height: 21px;
+    font-weight: bold;
 }
 .more-information {
     display: inline-block;
