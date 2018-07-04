@@ -6,6 +6,11 @@ html {
 *::before {
     box-sizing: inherit;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 body {
     font-family: "Pt Sans", "Arial", sans-serif;
     font-size: 14px;
@@ -56,9 +61,8 @@ img {
     margin-left: -40px;
 }
 .site-navigation li:nth-child(2) {
-    margin-right: 244px;
+    margin-right: 240px;
 }
-
 .site-navigation a {
     line-height: 26px;
     font-weight: bold;
@@ -198,7 +202,6 @@ img {
     padding: 0;
     list-style: none;
 }
-
 .features-second-list h2 {
     font-size: 21px;
     max-width: 120px;
@@ -213,7 +216,6 @@ img {
 }
 .interested-block {
     text-align: center;
-    margin-bottom: 55px;
 }
 .interested-block h2 { 
     font-size: 30px;
@@ -277,8 +279,8 @@ img {
     width: 112px;
     text-align: left; 
 }
-.search-date input {
-    padding: 6px 15px;
+.date-field input {
+    padding-left: 20px;
     border: none;
     width: 346px;
     line-height: 26px;
@@ -325,7 +327,7 @@ img {
     fill: #81b3d2;
 }
 .people input {
-    padding: 6px 15px;
+    text-align: center;
     border: none;
     width: 38px;
     line-height: 26px;
@@ -357,25 +359,24 @@ img {
 .search-form-btn:hover {
     background-color: #669ec0;
 }
-.main-footer {
+.footer-index {
     position: absolute;
     bottom: 0;
+}
+.footer {
     background-color: rgba(255,255,255,.9);
     min-height: 126px;
     display: flex;
     margin: 0 auto;
     align-items: center;
     padding: 0 115px;
-    width: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;    
 }
 .footer-social {
     display: flex;
     margin: 0 auto;
-    margin-left: 248px;
-    margin-bottom: 10px;
+    margin-left: 246px;
+    margin-bottom: 9px;
 }
 .social-btn {
     width: 46px;
@@ -393,7 +394,7 @@ img {
     opacity: 0.3;
     background-color: #5496bd;
 }
-.main-footer p {
+.footer p {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -574,6 +575,7 @@ img {
 .sort-wrapper {
     display: flex;
     align-items: center;
+    padding-left: 73px;
 }
 .price-day {
     font-size: 16px;
@@ -594,9 +596,6 @@ img {
     width: 133px;
     height: 32px;
     color: #ffffff;
-}
-.sort-wrapper {
-    padding-left: 73px; 
 }
 .sort-find {
     font-size: 21px;
@@ -676,9 +675,11 @@ img {
     padding-right: 73px;
 }
 .star {
-    display: block;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
     background-image: url('../img/star.svg');
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
 .rating {
     display: block;

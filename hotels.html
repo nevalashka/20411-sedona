@@ -23,8 +23,7 @@
       <main>
           <div class="wrapper-hotels-form">
               <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-                  <div class="filter-options">
-                    <fieldset>
+                    <fieldset class="filter-options">
                       <legend>Инфрастуктура:</legend>
                       <div class="field-wrapper">
                           <input type="checkbox" name="water-pool" id="water-pool" checked>
@@ -39,9 +38,7 @@
                           <label for="wi-fi">Wi-fi</label>
                       </div>
                     </fieldset>
-                  </div>
-                  <div class="filter-options">
-                     <fieldset>
+                    <fieldset class="filter-options">
                       <legend>Тип жилья:</legend>
                         <div class="field-wrapper"> 
                       <input type="checkbox" name="hotel" id="hotel" checked>
@@ -56,22 +53,21 @@
                       <label for="apartments">Апартаменты</label> 
                                 </div>
                     </fieldset>
-                  </div>
                   <div class="filter-range">
-      <div class="filter-range-title">Стоимость в сутки (р):</div>
-      <div class="price-controls">
-        <label class="min-price">от<input type="text" name="min-price" value=""></label>
-        <label class="max-price">до<input type="text" name="max-price" value=""></label>
-      </div>
-      <div class="range-controls">
-        <div class="scale">
-          <div class="bar"></div>
-        </div>
-        <div class="range-toggle range-toggle-min"></div>
-        <div class="range-toggle range-toggle-max"></div>
-      </div>
-      <button class="btn-transparent" type="submit">Показать</button>
-    </div>
+                      <div class="filter-range-title">Стоимость в сутки (р):</div>
+                      <div class="price-controls">
+                          <label class="min-price">от<input type="text" name="min-price" value=""></label>
+                          <label class="max-price">до<input type="text" name="max-price" value=""></label>
+                      </div>
+                      <div class="range-controls">
+                          <div class="scale">
+                              <div class="bar"></div>
+                          </div>
+                          <div class="range-toggle range-toggle-min"></div>
+                          <div class="range-toggle range-toggle-max"></div>
+                      </div>
+                      <button class="btn-transparent" type="submit">Показать</button>
+                  </div>
               </form>
           </div>
               <div class="sort-wrapper">
@@ -161,7 +157,7 @@
           </div>
           </section>
       </main>
-      <footer class="main-footer">
+      <footer class="footer">
               <p>#visitsedona</p>
               <div class="footer-social">
                   <a class="social-btn social-btn-twitter" href="https://twitter.com">
