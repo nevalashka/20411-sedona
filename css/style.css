@@ -203,9 +203,8 @@ img {
 }
 .features-second-list {
     display: flex;
-    margin: 0;
-    padding: 0;
     list-style: none;
+    justify-content: center;
 }
 .features-second-list h2 {
     font-size: 21px;
@@ -276,7 +275,7 @@ img {
     padding-right: 26px;
 }
 .field {
-    margin-bottom: 30px;
+    margin-bottom: 29px;
     display: flex;
     align-items: center;
 }
@@ -284,16 +283,18 @@ img {
     line-height: 26px;
     font-weight: 700;
     color: #000;
-    width: 112px;
+    width: 110px;
     text-align: left; 
 }
 .kids label {
     text-align: right;
+    padding-left: 55px;
+    margin-right: 8px;
 }
 .date-field input {
-    padding-left: 20px;
+    padding-left: 15px;
     border: none;
-    width: 346px;
+    width: 310px;
     line-height: 26px;
     height: 38px;
     font-weight: 700;
@@ -321,6 +322,8 @@ img {
 .small-field {
     display: flex;
     align-items: center;
+    margin-left: -2px;
+    margin-bottom: 5px;
 }
 .people .btn {
     width: 38px;
@@ -338,7 +341,7 @@ adults label {
 }
 .minus::after {
     position: absolute;
-    top: 17px;
+    top: 18px;
     left: 15px;
     content: '';
     display: block;
@@ -397,11 +400,11 @@ adults label {
     color: #000;
     background-color: #f2f2f2;
     outline: 0;
+    padding-left: 7px;
 }
 .search-form-btn {
     display: inline-block;
-    vertical-align: middle;
-    width: 458px;
+    width: 100%;
     height: 58px;
     border: none;
     margin-top: 20px;
@@ -429,7 +432,7 @@ adults label {
     display: flex;
     margin: 0 auto;
     align-items: center;
-    padding: 0 115px;
+    padding: 0 105px 0 115px;
     width: 100%;    
 }
 .footer-social {
