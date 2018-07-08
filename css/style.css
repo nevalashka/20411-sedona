@@ -509,6 +509,7 @@ adults label {
 }
 .filter-options {
     min-width: 240px;
+    display: flex;
 }
 
 .search-form fieldset {
@@ -700,17 +701,23 @@ adults label {
     margin-left: auto;
     padding-right: 73px;
 }
-.arrow-up {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-color: #cacaca;
+.arrow-up:active path {
+    fill: #81b3d2;
+}
+.arrow-down:active path {
+    fill: #81b3d2;
+}
+.arrow-up:hover path {
+    fill: #000000;
+}
+.arrow-down:hover path {
+    fill: #000000;
 }
 .arrow-down {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-color: #cacaca;
+    margin-left: 12px;
+}
+.active-arrow path {
+    fill: #81b3d2;
 }
 .container-block {
     border-bottom: 1px solid #e5e5e5;
@@ -753,10 +760,15 @@ adults label {
     color: rgba(0, 0, 0, 0.3);
 }
 .left-side-of-result-block {
+    position: relative;
     display: flex;
     flex-direction: column-reverse;
     margin-left: auto;
     padding-right: 73px;
+}
+.stars {
+    position: absolute;
+    top: 0;
 }
 .star {
     width: 20px;
