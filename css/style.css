@@ -21,20 +21,20 @@ body {
     text-transform: uppercase;
     background-color: #f2f2f2;
 }
-.wrapper {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0;
-    background-color: #ffffff;
-    box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
-}
 a {
     text-decoration: none;
 }
 img { 
     max-width: 100%;
     height: auto;
+}
+.wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 .main-navigation {
     position: relative;
@@ -247,7 +247,7 @@ img {
     background-color: #ffffff;
     width: 568px;
     margin: 0 auto;
-    box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+    box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
     position: relative;
     width: 568px;
 }
@@ -436,7 +436,7 @@ adults label {
     bottom: 0;
 }
 .footer {
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255,255,255,.8);
     min-height: 126px;
     display: flex;
     margin: 0 auto;
@@ -576,13 +576,12 @@ label[for="water-pool"] {} {
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
-    letter-spacing: .3px;
+    letter-spacing: .1px;
 }
 .price-controls {
     position: relative;
     height: 36px;
     margin-bottom: 20px;
-    margin-left: 7px;
     margin-top: -2px;
     font-size: 0;
     border: 2px solid #ffffff;
@@ -607,13 +606,13 @@ label[for="water-pool"] {} {
 }
 .price-controls .min-price {
     width: 92px;
-    padding-left: 62px;
-    margin-top: -5px;
+    padding-left: 63px;
+    margin-top: -3px;
 }
 .price-controls .max-price {
     width: 180px;
     padding-left: 119px;
-    margin-top: -5px;
+    margin-top: -3px;
 }
 .price-controls input {
     width: 50px;
@@ -639,20 +638,20 @@ label[for="water-pool"] {} {
 
 .range-toggle {
     position: absolute;
-    top: -3px;
+    top: 0;
     left: 8px;
     width: 4px;
     height: 4px;
     background: #ababab;
     border-radius: 50%;
-    box-shadow: 0 0px 0px 8px #fff;
+    box-shadow: 0 0 0 8px #fff;
     cursor: pointer;
 }
 .range-toggle:hover {
     background: #1c4f80;
 }
 .range-toggle-min {
-    left: 0;
+    
 }
 .range-toggle-max {
     left: 82%;
@@ -681,6 +680,7 @@ label[for="water-pool"] {} {
 .sort-wrapper {
     display: flex;
     align-items: center;
+    margin-bottom: 7px;
     padding-left: 73px;
     margin-top: 11px;
     min-height: 68px;
@@ -767,7 +767,7 @@ label[for="water-pool"] {} {
     border-top: 1px solid #e5e5e5;
 }
 .result-wrapper {
-    padding: 30px 0 30px 0;
+    padding: 24px 0;
     display: flex;
 }
 .img-wrapper {
@@ -867,4 +867,8 @@ label[for="water-pool"] {} {
 .book:active {
     color: rgba(255, 255, 255, 0.3);
     background-color: #503e33;
+}
+.hotel-price-wrapper:nth-child(2) {
+    margin-top: -2px;
+    margin-bottom: -1px;
 }
