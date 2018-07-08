@@ -518,6 +518,7 @@ adults label {
     font-size: 16px;
     font-weight: bold;
     margin: 0 0 15px;
+    letter-spacing: .3px;
 }
 .search-form label {
     font-size: 14px;
@@ -541,9 +542,13 @@ input[type="radio"].visually-hidden {
 }
 .filter-options label{
     position: relative;
-    padding-left: 39px;
+    padding-left: 41px;
+    letter-spacing: .4px;
 }
-
+label[for="water-pool"] {} {
+    padding-left: 40px;
+    letter-spacing: .3px;
+}
 .filter-options label::before {
     content: '';
     display: block;
@@ -613,17 +618,14 @@ input[type="radio"].visually-hidden {
     background: none;
     border: none;
 }
-
 .range-controls {
     position: relative;
     margin-bottom: 32px;
 }
-
 .range-controls .scale {
     height: 2px;
     background: rgba(255, 255, 255, 0.3);
 }
-
 .range-controls .bar {
     width: 80%;
     height: 2px;
@@ -653,6 +655,7 @@ input[type="radio"].visually-hidden {
 .btn-transparent {
     display: block;
     margin: 0 auto;
+    margin-right: 93px;
     padding: 6px 35px;
     font-size: 14px;
     line-height: 20px;
@@ -778,8 +781,8 @@ input[type="radio"].visually-hidden {
     margin-right: 6px;
 }
 .hotel-price-wrapper p {
-    margin: 0;
-    padding: 10px 0 12px;
+    margin-top: 10px;
+    
 }
 .links-hotel-wrapper {
     display: flex;
@@ -787,6 +790,7 @@ input[type="radio"].visually-hidden {
 .hotel-link {
     font-size: 21px;
     font-weight: bold;
+    letter-spacing: .3px;
     line-height: 26px;
     color: #000000;
 }
@@ -799,7 +803,7 @@ input[type="radio"].visually-hidden {
 .right-side-of-result-block {
     display: flex;
     margin-left: auto;
-    padding-right: 73px;
+    padding-right: 70px;
     flex-direction: column;
 }
 .stars {
