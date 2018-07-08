@@ -24,28 +24,28 @@
           <div class="wrapper-hotels-form">
               <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
                     <fieldset class="filter-options">
-                        <legend>Инфрастуктура:</legend>
-                          <input type="checkbox" name="water-pool" id="water-pool" checked>
+                        <legend>ИНФРАСТРУКТУРА:</legend>
+                          <input class="visually-hidden" type="checkbox" name="water-pool" id="water-pool" checked>
                           <label for="water-pool">Бассейн</label>
-                          <input type="checkbox" name="parking" id="parking">
+                          <input class="visually-hidden" type="checkbox" name="parking" id="parking">
                           <label for="parking">Парковка</label>
-                          <input type="checkbox" name="wi-fi" id="wi-fi">
+                          <input class="visually-hidden" type="checkbox" name="wi-fi" id="wi-fi">
                           <label for="wi-fi">Wi-fi</label>
                     </fieldset>
                     <fieldset class="filter-options">
                       <legend>Тип жилья:</legend>
-                      <input type="checkbox" name="hotel" id="hotel" checked>
+                      <input class="visually-hidden" type="checkbox" name="hotel" id="hotel" checked>
                       <label for="hotel">Гостиница</label>
-                      <input type="checkbox" name="motel" id="motel" checked>
+                      <input class="visually-hidden" type="checkbox" name="motel" id="motel" checked>
                       <label for="motel">Мотель</label>
-                      <input type="checkbox" name="apartments" id="apartments" checked>
+                      <input class="visually-hidden" type="checkbox" name="apartments" id="apartments" checked>
                       <label for="apartments">Апартаменты</label> 
                     </fieldset>
                   <div class="filter-range">
                       <div class="filter-range-title">Стоимость в сутки (р):</div>
                       <div class="price-controls">
-                          <label class="min-price">от<input type="text" name="min-price" value=""></label>
-                          <label class="max-price">до<input type="text" name="max-price" value=""></label>
+                          <label class="min-price">от 0<input type="text" name="min-price" value=""></label>
+                          <label class="max-price">до 3000<input type="text" name="max-price" value=""></label>
                       </div>
                       <div class="range-controls">
                           <div class="scale">
@@ -58,7 +58,7 @@
                   </div>
               </form>
           </div>
-              <div class="sort-wrapper">
+          <div class="sort-wrapper">
               <p class="sort-find">Найдено: 3</p>
               <p class="sort-menu">Сортировка:</p>
               <ul class="sort-options">
@@ -74,7 +74,7 @@
                       <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#cacaca" d="M5.5 10L0 0h11"/></svg>
                   </a>
               </span>
-              </div>
+          </div>
           <section>
           <div class="container-block">
               <div class="result-wrapper">
@@ -84,15 +84,15 @@
                   <div class="hotel-info">
                       <a href="#" class="hotel-link">Amara Resort & Spa</a>
                       <div class="hotel-price-wrapper">
-                          <p>Гостиница</p>
-                          <p>от 4000 Р.</p>
+                          <p class="hotel-type">Гостиница</p>
+                          <p class="price-price">от 4000 Р.</p>
                       </div>
                       <div class="links-hotel-wrapper">
                           <a href="#" class="more-information">Подробнее</a>
                           <a href="#" class="book">Забронировать</a>
                       </div>
                   </div>
-                  <div class="left-side-of-result-block">
+                  <div class="right-side-of-result-block">
                       <span class="stars">
                           <span class="star"></span>
                           <span class="star"></span>
@@ -111,15 +111,15 @@
                   <div class="hotel-info">
                       <a href="#" class="hotel-link">Desert Quail Inn</a>
                       <div class="hotel-price-wrapper">
-                      <p>Мотель</p>
-                      <p>от 3000 Р.</p>
+                      <p class="hotel-type">Мотель</p>
+                      <p class="price-price">от 3000 Р.</p>
                       </div>
                       <div class="links-hotel-wrapper">
                       <a href="#" class="more-information">Подробнее</a>
                       <a href="#" class="book">Забронировать</a>
                       </div>
                   </div>
-                  <div class="left-side-of-result-block">
+                  <div class="right-side-of-result-block">
                       <span class="stars">
                           <span class="star"></span>
                           <span class="star"></span>
@@ -137,15 +137,15 @@
                   <div class="hotel-info">
                       <a href="#" class="hotel-link">Villas at poco diablo</a>
                       <div class="hotel-price-wrapper">
-                      <p>Апартаменты</p>
-                      <p>от 2000 Р.</p>
+                      <p class="hotel-type">Апартаменты</p>
+                      <p class="price-price">от 2000 Р.</p>
                       </div>
                       <div class="links-hotel-wrapper">
                       <a href="#" class="more-information">Подробнее</a>
                       <a href="#" class="book">Забронировать</a>
                       </div>
                   </div>
-                  <div class="left-side-of-result-block">
+                  <div class="right-side-of-result-block">
                       <span class="stars">
                           <span class="star"></span>
                           <span class="star"></span>
