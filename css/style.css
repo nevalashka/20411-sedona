@@ -566,8 +566,8 @@ label[for="water-pool"] {} {
 
 }
 .filter-range {
-    margin-left: 260px;
-    width: 300px;
+    margin-left: 245px;
+    width: 317px;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -576,11 +576,14 @@ label[for="water-pool"] {} {
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
+    letter-spacing: .3px;
 }
 .price-controls {
     position: relative;
     height: 36px;
     margin-bottom: 20px;
+    margin-left: 7px;
+    margin-top: -2px;
     font-size: 0;
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -603,12 +606,14 @@ label[for="water-pool"] {} {
     cursor: pointer;
 }
 .price-controls .min-price {
-    width: 90px;
-    padding-left: 60px;
+    width: 92px;
+    padding-left: 62px;
+    margin-top: -5px;
 }
 .price-controls .max-price {
     width: 180px;
-    padding-left: 120px;
+    padding-left: 119px;
+    margin-top: -5px;
 }
 .price-controls input {
     width: 50px;
@@ -634,13 +639,13 @@ label[for="water-pool"] {} {
 
 .range-toggle {
     position: absolute;
-    top: -9px;
+    top: -3px;
+    left: 8px;
     width: 4px;
     height: 4px;
     background: #ababab;
-    border: 8px solid #ffffff;
     border-radius: 50%;
-    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    box-shadow: 0 0px 0px 8px #fff;
     cursor: pointer;
 }
 .range-toggle:hover {
@@ -650,7 +655,7 @@ label[for="water-pool"] {} {
     left: 0;
 }
 .range-toggle-max {
-    left: 80%;
+    left: 82%;
 }
 .btn-transparent {
     display: block;
