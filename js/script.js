@@ -1,2 +1,0 @@
-var kokok;
-var yalublupukat;
