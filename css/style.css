@@ -84,7 +84,7 @@ img {
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    padding-top: 15px 0;
+    padding-top: 15px;
 }
 .site-navigation a:hover {
     color: #81b3d2;
@@ -294,7 +294,7 @@ img {
     padding: 57px;
     background-color: #fff;
     -webkit-box-shadow: 0 7px 15px rgba(0,1,1,.15);
-            box-shadow: 0 7px 15px rgba(0,1,1,.15);
+    box-shadow: 0 7px 15px rgba(0,1,1,.15);
     z-index: 1;
     top: 100%;
     left: 0;
@@ -310,8 +310,8 @@ img {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .field label {
     line-height: 26px;
@@ -597,7 +597,7 @@ input[type="radio"].visually-hidden {
     padding-left: 41px;
     letter-spacing: .4px;
 }
-label[for="water-pool"] {} {
+label[for="water-pool"] {
     padding-left: 40px;
     letter-spacing: .3px;
 }
@@ -714,8 +714,9 @@ label[for="water-pool"] {} {
 .btn-transparent {
     display: block;
     margin: 0 auto;
-    margin-right: 93px;
-    padding: 6px 35px;
+    width: 138px;
+    margin-right: 95px;
+    padding: 6px 6px;
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
@@ -946,4 +947,9 @@ label[for="water-pool"] {} {
 }
 .footer-hotels {
     margin-top: -6px;
+}
+.map-wrapper {
+    min-height: 593;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
 }
