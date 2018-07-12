@@ -421,11 +421,6 @@ img {
     background-color: #f2f2f2;
     border: 0;
 }
-.adults label {
-    text-align: right;
-    padding-right: 26px;
-    padding-left: 26px;
-}
 .minus, .plus {
     position: relative;
 }
@@ -580,7 +575,7 @@ img {
 }
 .footer-copyright p {
     display: inline-block;
-    text-align: top;
+    vertical-align: top;
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
@@ -720,9 +715,9 @@ label[for="water-pool"] {
     margin-top: -3px;
 }
 .price-controls .max-price {
-    width: 180px;
-    padding-left: 110px;
     margin-top: -3px;
+    width: 200px;
+    padding-left: 119px;
 }
 .price-controls input {
     width: 50px;
@@ -954,6 +949,7 @@ label[for="water-pool"] {
     display: block;
     width: 110px;
     height: 27px;
+    margin-top: 5px;
     text-align: center;
     background-color: #f2f2f2;
 }
@@ -966,7 +962,7 @@ label[for="water-pool"] {
 }
 .more-information {
     display: inline-block;
-    text-align: center;
+    vertical-align: top;
     width: 110px;
     height: 27px;
     color: #ffffff;
@@ -983,7 +979,7 @@ label[for="water-pool"] {
 .book {
     display: inline-block;
     text-align: center;
-    vertical-align: center;
+    vertical-align: top;
     width: 142px;
     height: 27px;
     border: none;
@@ -1009,10 +1005,4 @@ label[for="water-pool"] {
     min-height: 593;
     background-image: url(../img/map.jpg);
     background-repeat: no-repeat;
-}
-.search-form-hide {
-    animation: formhide 0.7s forwards;
-}
-.search-form-show {
-    animation: formshow 0.7s forwards;
 }
