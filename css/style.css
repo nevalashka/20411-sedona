@@ -83,7 +83,7 @@ img {
     color: #000000;
     display: inline-block;
     text-decoration: none;
-    text-align: center;
+    vertical-align: center;
 }
 .site-navigation a:hover {
     color: #81b3d2;
@@ -108,7 +108,8 @@ img {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
-    margin-bottom: 25px;
+    width: 450px;
+    margin: 0 auto 25px;
 }
 .caption-block p {
     color: #333333;
@@ -129,7 +130,8 @@ img {
 }
 .left-block-of-real-town h2 {
     font-size: 21px;
-    margin-bottom: 25px;
+    width: 120px;
+    margin: 20px auto 24px;
 }
 .left-block-of-real-town p {
     margin-top: 20px;
@@ -203,6 +205,7 @@ img {
 }
 .right-block-of-bridge p {
     margin-top: 23px;
+    padding: 0 40px;
 }
 .features-second-block {
     background-color: #eeeeee;
@@ -214,16 +217,20 @@ img {
 }
 .features-second-list li {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 49px;
 }
 .features-second-list li:nth-child(1) {
-    padding-left: 55px;
+    width: 210px;
+    margin-left: 55px;
 }
 .features-second-list li:nth-child(2) {
-    padding-left: 20px;
+    padding-left: 25px;
+    width: 290px;
 }
 .features-second-list li:nth-child(3) {
-    padding-right: 75px;
+    padding-right: 72px;
+    width: 330px;
+    letter-spacing: .1px;
 }
 .features-second-list {
     display: -webkit-box;
@@ -243,7 +250,7 @@ img {
 }
 .features-second-list p {
     color: #333333;
-    margin-top: 20px;
+    margin-top: 23px;
 }
 .interested-block {
     text-align: center;
@@ -341,7 +348,7 @@ img {
 }
 .search-date input:focus {
     background-color: #ffffff;
-    border: solid 2px #e5e5e5;
+    outline: solid 2px #e5e5e5;
 }
 .calendar-btn {
     display: block;
@@ -443,6 +450,7 @@ adults label {
 }
 .search-form-btn {
     display: inline-block;
+    vertical-align: center;
     width: 100%;
     height: 58px;
     border: none;
@@ -527,6 +535,7 @@ adults label {
 }
 .footer-copyright p {
     display: inline-block;
+    text-align: center;
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
@@ -557,9 +566,6 @@ adults label {
 }
 .filter-options {
     min-width: 250px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
 }
 .search-form fieldset {
     border: none;
@@ -573,7 +579,9 @@ adults label {
 .search-form label {
     font-size: 14px;
     font-weight: normal;
-    display: inline-block;
+    display: block;
+    text-align: left;
+    vertical-align: center;
     margin-bottom: 25px;
 }
 .visually-hidden:not(:focus):not(:active),
@@ -587,7 +595,7 @@ input[type="radio"].visually-hidden {
     padding: 0;
     white-space: nowrap;
     -webkit-clip-path: inset(100%);
-            clip-path: inset(100%);
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
@@ -614,7 +622,9 @@ label[for="water-pool"] {
 
 .filter-options input:checked + label::before {
     background-image: url("../img/checkbox-on.svg");
-
+}
+.filter-options input:disabled + label::before {
+    opacity: 0.5;
 }
 .filter-range {
     margin-left: 245px;
@@ -647,11 +657,12 @@ label[for="water-pool"] {
     height: 22px;
     background: #ffffff;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .price-controls label {
     display: inline-block;
+    text-align: center;
     font-size: 14px;
     line-height: 38px;
     vertical-align: top;
@@ -664,7 +675,7 @@ label[for="water-pool"] {
 }
 .price-controls .max-price {
     width: 180px;
-    padding-left: 119px;
+    padding-left: 110px;
     margin-top: -3px;
 }
 .price-controls input {
@@ -698,7 +709,7 @@ label[for="water-pool"] {
     background: #ababab;
     border-radius: 50%;
     -webkit-box-shadow: 0 0 0 8px #fff;
-            box-shadow: 0 0 0 8px #fff;
+    box-shadow: 0 0 0 8px #fff;
     cursor: pointer;
 }
 .range-toggle:hover {
@@ -737,8 +748,8 @@ label[for="water-pool"] {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-bottom: 7px;
     padding-left: 73px;
     margin-top: 11px;
@@ -880,8 +891,8 @@ label[for="water-pool"] {
     padding-right: 70px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 .stars {
     margin-left: auto;
@@ -892,6 +903,8 @@ label[for="water-pool"] {
     width: 20px;
     height: 20px;
     display: inline-block;
+    vertical-align: center;
+    text-align: center;
     background-image: url('../img/star.svg');
     background-repeat: no-repeat;
 }
@@ -911,6 +924,7 @@ label[for="water-pool"] {
 }
 .more-information {
     display: inline-block;
+    text-align: center;
     width: 110px;
     height: 27px;
     color: #ffffff;
@@ -926,6 +940,8 @@ label[for="water-pool"] {
 }
 .book {
     display: inline-block;
+    text-align: center;
+    vertical-align: center;
     width: 142px;
     height: 27px;
     border: none;
@@ -941,7 +957,7 @@ label[for="water-pool"] {
     background-color: #503e33;
 }
 .hotel-price-wrapper:nth-child(2) {
-    margin-top: -2px;
+    margin-top: -3px;
     margin-bottom: -1px;
 }
 .footer-hotels {
@@ -951,4 +967,32 @@ label[for="water-pool"] {
     min-height: 593;
     background-image: url(../img/map.jpg);
     background-repeat: no-repeat;
+}
+.search-form-hide {
+    animation: formhide 0.7s forwards;
+}
+.search-form-show {
+    animation: formshow 0.7s forwards;
+}
+@keyframes formshow {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes formhide {
+  0% {
+      transform: translateY(0);
+  }
+
+  100% {
+      transform: translateY(-100%);
+      box-shadow: none;
+      transform-origin: top;
+  }
 }
